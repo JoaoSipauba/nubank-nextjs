@@ -21,7 +21,10 @@ export const {
         orange: '#FF7900',
         background: '#F7F7FF',
     },
-  }
+    fonts: {
+      montserrat: 'Montserrat, sans-serif',
+    }
+  },
 });
 
 export const globalStyles = globalCss({
@@ -30,8 +33,7 @@ export const globalStyles = globalCss({
     padding: 0, 
   },
   'body': {
-    fontFamily: 'Montserrat, sans-serif', 
-    backgroundColor: '$roxinho',
+    backgroundColor: '$background',
     fontSize: 14,
     fontWeight: 'normal'
   }

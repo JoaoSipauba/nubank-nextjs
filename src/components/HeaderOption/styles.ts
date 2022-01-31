@@ -11,5 +11,6 @@ export const Span = styled('span', {
 export const Text = styled('p', {
     fontWeight: 500,
     fontSize: 14,
-    color: '$textBlack'
+    color: '$textBlack',
+    fontFamily: '$montserrat'
 });
