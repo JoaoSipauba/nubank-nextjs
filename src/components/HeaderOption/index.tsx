@@ -7,7 +7,7 @@ interface Props {
 export function HeaderOption(props: Props){
 
     return (
-        <Span>
+        <Span onClick={()=>window.alert("bem vindo ao site")}>
             <Text>{props.text}</Text>
         </Span>
     )
