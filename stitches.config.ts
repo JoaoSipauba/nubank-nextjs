@@ -20,6 +20,7 @@ export const {
         textBlack: '#000000',
         orange: '#FF7900',
         background: '#F7F7FF',
+        blackIcon: '#323232'
     },
     fonts: {
       montserrat: 'Montserrat, sans-serif',
